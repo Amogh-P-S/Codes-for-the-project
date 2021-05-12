@@ -1,0 +1,4 @@
+List = [1,-12,22,-45,18,-986,227]
+for a in List:
+    if a >= 0:
+        print (a)
