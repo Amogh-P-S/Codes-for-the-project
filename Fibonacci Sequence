@@ -1,0 +1,22 @@
+p = int(input("Enter no. of terms: "))
+a,b = 0,1
+m = 0
+
+if p <= 0:
+    print ("Not a valid number")
+elif p == 1:
+    print ("Fibonaci Sequence: ")
+    print(a)
+elif p == 2:
+    print ("Fibonaci Sequence: ")
+    print(a)
+    print(b)
+else:
+    print ("Fibonaci Sequence: ")
+    while m < p:
+        print (a)
+        
+        nth = a + b
+        a = b
+        b = nth
+        m += 1
